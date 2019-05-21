@@ -146,7 +146,7 @@
         </div>
 
         <div class="row">
-			<%-- <c:forEach items="${noticias }" var="noticia">
+			<c:forEach items="${noticias }" var="noticia">
           <div class="col-sm-12 blog-main">
 
             <div class="blog-post">              
@@ -163,7 +163,7 @@
             </div>
           		
           </div>
-           </c:forEach> --%>
+           </c:forEach> 
         </div>
 
       </div>

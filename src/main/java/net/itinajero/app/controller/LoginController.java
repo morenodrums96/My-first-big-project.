@@ -11,6 +11,13 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @RequestMapping("/admin")
 public class LoginController {
 	
+	@GetMapping(value="/index")
+	public String entrar()
+	{
+		return"admin";
+	}
+	
+	
 	@GetMapping(value="/logout")
 		public String logout(HttpServletRequest request){
 		SecurityContextLogoutHandler logoutHandler =

@@ -33,7 +33,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="${urlRoot}">My CineSite| Editor</a>
+          <a class="navbar-brand" href="${urlRoot}/admin/index">My CineSite| Editor</a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">  
@@ -53,15 +53,15 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="${urlRoot}">My CineSite | Admin</a>
+          <a class="navbar-brand" href="${urlRoot}/admin/index">My CineSite | Admin</a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">  
-             <%-- <li><a href="${urlRoot}peliculas/index">Peliculas</a></li>
+              <li><a href="${urlRoot}peliculas/index">Peliculas</a></li>
             <li><a href="${urlRoot}banners/index">Banners</a></li>
   			<li><a href="${urlRoot}noticias/create">Noticias</a></li>
   			<li><a href="${urlRoot}horarios/create">Horarios</a></li>           
-            <li><a href="${urlRoot}admin/logout">Salir</a></li>   --%> 
+            <li><a href="${urlRoot}admin/logout">Salir</a></li>
           </ul>
         </div><!--/.nav-collapse -->
        </sec:authorize> 
