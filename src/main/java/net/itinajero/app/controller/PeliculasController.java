@@ -25,7 +25,6 @@ import net.itinajero.app.model.Detalles;
 import net.itinajero.app.model.Pelicula;
 import net.itinajero.app.repository.DetallesRepository;
 import net.itinajero.app.repository.PeliculasRepository;
-import net.itinajero.app.service.DetallesServicesJPA;
 import net.itinajero.app.service.IDetalleServices;
 import net.itinajero.app.service.IPeliculasService;
 import net.itinajero.app.util.Utileria;

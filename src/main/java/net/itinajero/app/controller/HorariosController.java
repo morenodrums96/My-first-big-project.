@@ -17,7 +17,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import net.itinajero.app.model.Horario;
 import net.itinajero.app.model.Pelicula;
 import net.itinajero.app.repository.HorariosRepository;
-import net.itinajero.app.repository.PeliculasRepository;
 import net.itinajero.app.service.IHorarioServices;
 import net.itinajero.app.service.IPeliculasService;
 
